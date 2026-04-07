@@ -1,0 +1,12 @@
+# Extensiones de sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones de editores
+.vscode/
+.idea/
+
+# Archivos temporales o de logs
+*.log
+node_modules/
+dist/
