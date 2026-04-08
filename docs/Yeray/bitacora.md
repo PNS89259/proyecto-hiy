@@ -1,7 +1,5 @@
 # 📝 Reporte de Seguimiento de Proyecto
-**Fecha:** 07 de abril de 2026  
-**Responsable:** Yeray Gonzalez  
-**Proyecto:** Gimnasio
+
 
 ---
 
@@ -16,11 +14,11 @@
 - [x] **Tarea 5:** Creacion de memoria y presupuesto.
 
 
-
-
-**Fecha:** 08 de abril de 2026  
+**Fecha:** 07 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
+
+
 
 ---
 
@@ -36,4 +34,8 @@
 - [x] **Tarea 7:** Agregacion de gemelo digital embebido.
 - [x] **Tarea 8:** Agregacion de JS a la pagina principal.
 - [x] **Tarea 9:** Agregacion mejoras pagina principal.
+
+**Fecha:** 08 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
 
