@@ -39,3 +39,16 @@
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
 
+
+## ✅ Tareas Completadas
+*Lo que ya está finalizado.*
+
+- [x] **Tarea 1:** Modificacion de pagina principal.
+- [x] **Tarea 2:** Implementacion de paginas de compañeros a la pagina principal.
+- [x] **Tarea 3:** Implementacion numeros interactivos a la pagina principal.
+- [x] **Tarea 4:** Modificaciones de paginas secundarias para refactorizacion de codigo.
+
+
+**Fecha:** 09 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
