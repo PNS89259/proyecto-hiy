@@ -13,4 +13,6 @@
 - [x] **Tarea 3:** Ficheros .gitignore y .gitkeep.
 - [x] **Tarea 4:** Tablero de proyecto en GitHub.
 - [x] **Tarea 5:** Creacion de imágenes de Galería de mina.
-- [x] **Tarea 6:** Creacion primer vídeo de Galería de mina.
+- [x] **Tarea 6:** Crear personajes.
+- [x] **Tarea 7:** Crear vídeos con personajes.
+- [x] **Tarea 8:** Sincronizar labios para la presentación.
