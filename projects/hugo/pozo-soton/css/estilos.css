@@ -10,6 +10,11 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Roboto, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../img/pozo-soton-wallpaper.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .material-symbols-outlined {
@@ -23,8 +28,8 @@ body {
     padding-bottom: 5px;
 }
 
-#navbarNav { 
-    align-self: flex-end; 
+#navbarNav {
+    align-self: flex-end;
 }
 
 .navbar-nav .nav-link {
@@ -34,40 +39,40 @@ body {
     transition: color 0.3s;
 }
 
-.navbar-nav .nav-link:hover { 
-    color: #ffc107 !important; 
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
 }
 
 .busqueda-expandible .form-control {
-    width: 0; 
-    padding: 0; 
-    border: none; 
+    width: 0;
+    padding: 0;
+    border: none;
     background: transparent;
-    color: white; 
-    outline: none; 
+    color: white;
+    outline: none;
     box-shadow: none;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .busqueda-expandible:hover .form-control,
 .busqueda-expandible .form-control:focus {
-    width: 180px; 
+    width: 180px;
     padding: 0 10px;
-    border-bottom: 1px solid #ffc107; 
+    border-bottom: 1px solid #ffc107;
     margin-right: 8px;
 }
 
 .btn-busqueda-limpio {
-    background: none; 
-    border: none; 
-    color: white; 
+    background: none;
+    border: none;
+    color: white;
     cursor: pointer;
     transition: color 0.3s, transform 0.2s;
 }
 
-.btn-busqueda-limpio:hover { 
-    color: #ffc107; 
-    transform: scale(1.1); 
+.btn-busqueda-limpio:hover {
+    color: #ffc107;
+    transform: scale(1.1);
 }
 
 .img-hover {
@@ -78,6 +83,24 @@ body {
 .img-hover:hover {
     transform: scale(1.03);
     filter: brightness(1.15);
+}
+
+/* --- SECCIONES CON FONDO DE CARBÓN (V1.1) --- */
+#galeria,
+#visita {
+    /* Overlay sutil para que las fotos resalten */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../img/pozo-soton-wallpaper-carbon.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Ajuste específico para que la sección Visita no se vea pegada al footer */
+#visita {
+    margin-bottom: 0 !important;
+    padding-bottom: 80px;
 }
 
 .img-visita {
@@ -95,17 +118,32 @@ body {
 }
 
 @keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); opacity: 0.9; }
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
 }
 
-.animate-pulse { 
-    animation: pulse 0.6s ease-in-out; 
+.animate-pulse {
+    animation: pulse 0.6s ease-in-out;
 }
 
 @media (max-width: 991px) {
-    .navbar .container { align-items: center; }
-    #navbarNav { align-self: center; text-align: center; margin-top: 20px; }
+    .navbar .container {
+        align-items: center;
+    }
+
+    #navbarNav {
+        align-self: center;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 576px) {
