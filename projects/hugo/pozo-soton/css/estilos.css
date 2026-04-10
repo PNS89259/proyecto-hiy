@@ -85,10 +85,25 @@ body {
     filter: brightness(1.15);
 }
 
-/* --- SECCIONES CON FONDO DE CARBÓN (V1.1) --- */
+.video-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #000;
+    line-height: 0;
+}
+
+.video-container video {
+    outline: none;
+    display: block;
+}
+
+.video-container:hover {
+    border-color: #ffc107 !important;
+    transition: border-color 0.3s ease;
+}
+
 #galeria,
 #visita {
-    /* Overlay sutil para que las fotos resalten */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url('../img/pozo-soton-wallpaper-carbon.png');
 
