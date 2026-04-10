@@ -1,6 +1,11 @@
 /* =========================================
    1. VARIABLES Y CONFIGURACIÓN BASE
    ========================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary: #38bdf8;
     /* Azul tecnológico */
