@@ -60,6 +60,8 @@
 - [x] **Tarea 1:** Modificacion de pagina principal.
 - [x] **Tarea 2:** Modificaciones esteticas Gimnasio Warriors.
 - [x] **Tarea 3:** Refactorizacion de codigo.
+- [x] **Tarea 4:** Implementacion de nuevas funciones.
+- [x] **Tarea 5:** Modificaciones esteticas HIY 3D.
 
 
 
