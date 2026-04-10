@@ -16,3 +16,21 @@
 - [x] **Tarea 6:** Crear personajes.
 - [x] **Tarea 7:** Crear vídeos con personajes.
 - [x] **Tarea 8:** Sincronizar labios para la presentación.
+- [x] **Tarea 9:** Sincronizar labios para la presentación.
+- [x] **Tarea 10:** Sincronizar labios para la presentación.
+- [x] **Tarea 11:** Creación de fichero de normativa.
+- [x] **Tarea 12:** Script para nomenclatura de proyecto.
+- [x] **Tarea 13:** Web Pozo Sotón 1.0.
+- [x] **Tarea 14:** Web Pozo Sotón 1.1.
+- [x] **Tarea 15:** Web Pozo Sotón 1.2.
+- [x] **Tarea 16:** Crear imágenes Prevención de Riesgos.
+- [x] **Tarea 17:** Crear vídeos Prevención de Riesgos.
+- [x] **Tarea 18:** Edición vídeos Prevención de Riesgos.
+- [x] **Tarea 19:** Licencias para GitHub.
+- [x] **Tarea 20:** Modificación de README.md.
+
+
+
+
+
+
