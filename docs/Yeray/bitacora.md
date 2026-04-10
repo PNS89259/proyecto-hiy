@@ -58,6 +58,7 @@
 *Lo que ya está finalizado.*
 
 - [x] **Tarea 1:** Modificacion de pagina principal.
+- [x] **Tarea 2:** Modificaciones esteticas Gimnasio Warriors.
 
 
 

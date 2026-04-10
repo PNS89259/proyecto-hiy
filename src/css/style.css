@@ -3,7 +3,7 @@
    ========================================= */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -293,13 +293,15 @@ section {
    7. PROYECTOS
    ========================================= */
 .projects {
-    background: #f1f5f9;
+    background: #f1f5fslate-100;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 3rem;
+    /* Asegura que todas las tarjetas de la misma fila midan lo mismo */
+    align-items: stretch; 
 }
 
 .project-card {
@@ -308,6 +310,10 @@ section {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
     transition: 0.4s;
+    
+    /* CAMBIO CLAVE: Convertimos la tarjeta en contenedor flex vertical */
+    display: flex;
+    flex-direction: column;
 }
 
 .project-img {
@@ -315,6 +321,40 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+    /* Evita que la imagen se encoja si hay mucho texto */
+    flex-shrink: 0; 
+}
+
+.project-content {
+    padding: 2.5rem;
+    
+    /* CAMBIO CLAVE: El contenido se expande para llenar el hueco */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.project-content p {
+    /* El párrafo crece y empuja lo que tenga debajo (el botón) */
+    flex-grow: 1; 
+    margin-bottom: 1.5rem;
+}
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.9rem 1.8rem;
+    background: var(--dark);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+    
+    /* Asegura que el botón no se estire a lo ancho y se quede abajo */
+    align-self: flex-start; 
+    margin-top: auto; 
 }
 
 .tag {
@@ -327,30 +367,6 @@ section {
     border-radius: 50px;
     font-size: 0.75rem;
     font-weight: 800;
-}
-
-.project-content {
-    padding: 2.5rem;
-}
-
-.project-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 1.5rem;
-    padding: 0.9rem 1.8rem;
-    background: var(--dark);
-    color: white;
-    text-decoration: none;
-    border-radius: 12px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.project-btn:hover {
-    background: var(--primary);
-    color: var(--dark);
-    transform: translateX(5px);
 }
 
 /* =========================================
@@ -645,4 +661,70 @@ section {
     height: 400px;
     background: radial-gradient(circle, rgba(56, 189, 248, 0.05) 0%, transparent 70%);
     border-radius: 50%;
+}
+
+/* =========================================
+   AJUSTE DE ESPACIADO Y COMPONENTES
+   ========================================= */
+
+/* 1. Corrección del Badge para permitir margen inferior */
+.badge {
+    display: inline-block; /* Crucial para que el margen inferior funcione */
+    margin-bottom: 1.5rem; /* Ajusta este valor para más o menos espacio */
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: rgba(56, 189, 248, 0.1);
+}
+
+/* 2. Asegurar que en Testimonios el autor siempre esté abajo */
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Para que todas las tarjetas midan lo mismo en la fila */
+}
+
+.testimonial-text {
+    flex-grow: 1; /* Empuja la sección del autor hacia el final de la tarjeta */
+    margin-bottom: 2rem;
+}
+
+/* 3. Ajuste de espaciado en el header de sección para mayor claridad */
+.section-header h2 {
+    margin-top: 0; /* Evita márgenes extraños si el badge está arriba */
+    line-height: 1.2;
+}
+
+/* =========================================
+   CORRECCIÓN FINAL DE ESPACIADOS (SEGÚN IMAGEN)
+   ========================================= */
+
+/* 1. Reduce el espacio gigante entre secciones (FAQ y Testimonios) */
+section {
+    padding-top: 80px !important;    /* Reduce el espacio superior de la sección */
+    padding-bottom: 40px !important; /* Reduce el espacio inferior de la sección */
+}
+
+/* 2. Separa el badge "FEEDBACK" del título "Voces de la Industria" */
+.testimonials .badge {
+    display: inline-block;
+    margin-bottom: 20px !important; /* Añade el espacio que falta abajo */
+    margin-top: 10px;               /* Espacio opcional arriba */
+}
+
+/* 3. Elimina margenes excesivos del encabezado de testimonios */
+.testimonials .section-header {
+    margin-bottom: 30px !important; /* Acerca el título a las tarjetas de abajo */
+    margin-top: 0 !important;       /* Elimina huecos arriba */
+}
+
+/* 4. Ajuste extra para el FAQ (por si las cajas tienen mucho margen) */
+.faq-item:last-child {
+    margin-bottom: 0 !important;
 }
