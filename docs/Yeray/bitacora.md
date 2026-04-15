@@ -35,9 +35,14 @@
 - [x] **Tarea 8:** Agregacion de JS a la pagina principal.
 - [x] **Tarea 9:** Agregacion mejoras pagina principal.
 
+
+
 **Fecha:** 08 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
+
+
+
 
 
 ## ✅ Tareas Completadas
@@ -49,9 +54,13 @@
 - [x] **Tarea 4:** Modificaciones de paginas secundarias para refactorizacion de codigo.
 
 
+
 **Fecha:** 09 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
+
+
+
 
 
 ## ✅ Tareas Completadas
@@ -70,6 +79,8 @@
 **Proyecto:** Gimnasio
 
 
+
+
 ## ✅ Tareas Completadas
 *Lo que ya está finalizado.*
 
@@ -79,7 +90,42 @@
 
 
 
-
 **Fecha:**  13 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
+
+
+
+
+## ✅ Tareas Completadas
+*Lo que ya está finalizado.*
+
+- [x] **Tarea 1:** Modificacion de imagenes de las paginas.
+- [x] **Tarea 2:** Correcion de imagenes.
+- [x] **Tarea 3:** Modificacion de codigo pagina soton.
+- [x] **Tarea 4:** Modificacion de codigo pagina carbon dulce.
+- [x] **Tarea 5:** Modificacion de logos de las paginas.
+
+
+
+**Fecha:**  14 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
+
+
+
+
+## ✅ Tareas Completadas
+*Lo que ya está finalizado.*
+
+- [x] **Tarea 1:** Perfilacion de estilos.
+- [x] **Tarea 2:** Perfilacion de estructura.
+- [x] **Tarea 3:** Creacion nuevo video.
+- [x] **Tarea 4:** Implementacion nuevo video pagina gimnasio Warriors.
+
+
+
+
+**Fecha:**  15 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
