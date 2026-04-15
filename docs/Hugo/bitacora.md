@@ -28,6 +28,10 @@
 - [x] **Tarea 18:** Edición vídeos Prevención de Riesgos.
 - [x] **Tarea 19:** Licencias para GitHub.
 - [x] **Tarea 20:** Modificación de README.md.
+- [x] **Tarea 21:** Crear música.
+- [x] **Tarea 22:** Editar audio.
+- [x] **Tarea 23:** Presupuesto Pozo Sotón.
+- [x] **Tarea 24:** Poner presupuesto Gimnasio coorporativo.
 
 
 
