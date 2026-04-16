@@ -129,3 +129,22 @@
 **Fecha:**  15 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
+
+
+
+
+
+
+## ✅ Tareas Completadas
+*Lo que ya está finalizado.*
+
+- [x] **Tarea 1:** Actualizamos pagina del gimnasio con un nuevo video.
+- [x] **Tarea 2:** Actualizamos memoria.
+- [x] **Tarea 3:** Actualizamos presupuesto.
+
+
+
+
+**Fecha:**  16 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
