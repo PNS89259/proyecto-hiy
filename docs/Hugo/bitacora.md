@@ -31,10 +31,7 @@
 - [x] **Tarea 21:** Crear música.
 - [x] **Tarea 22:** Editar audio.
 - [x] **Tarea 23:** Presupuesto Pozo Sotón.
-- [x] **Tarea 24:** Poner presupuesto Gimnasio coorporativo.
-
-
-
-
-
-
+- [x] **Tarea 24:** Adaptar presupuesto Gimnasio coorporativo.
+- [x] **Tarea 25:** Terminar memoria de proyecto general.
+- [x] **Tarea 26:** Crear video publicidad de Gimnasio.
+- [x] **Tarea 27:** Adaptar presupuesto Casa Acogida coorporativo.
