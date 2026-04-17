@@ -148,3 +148,20 @@
 **Fecha:**  16 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
+
+
+
+
+
+## ✅ Tareas Completadas
+*Lo que ya está finalizado.*
+
+- [x] **Tarea 1:** Revision de documentacion.
+
+
+
+
+
+**Fecha:**  17 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
