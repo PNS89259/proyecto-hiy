@@ -1,8 +1,9 @@
 /* COLORES DE LA WEB:
-   --primario: #4e342e (Marrón)
-   --acento:   #7cb342 (Verde Esperanza)
-   --blanco:   #ffffff
-   --danger:   #e63946 (Rojo Corazón)
+   --primario:      #4e342e (Marrón)
+   --acento:        #7cb342 (Verde Esperanza)
+   --acento-suave:  #f1f8e9
+   --blanco:        #ffffff
+   --danger:        #e63946 (Rojo Corazón)
 */
 
 :root {
@@ -106,6 +107,32 @@ video::-webkit-media-controls-mute-button {
 
 .hover-lift:hover .card-img-top {
     filter: brightness(1.05);
+}
+
+.bg-acento-suave {
+    background-color: #f1f8e9 !important;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--acento) !important;
+    background-color: #ffffff !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+.accordion-button:focus {
+    border-color: var(--acento);
+    box-shadow: 0 0 0 0.25rem rgba(124, 179, 66, 0.25);
+}
+
+.accordion-button::after {
+    filter: sepia(1) saturate(5) hue-rotate(50deg);
+}
+
+.accordion-item {
+    border: 1px solid rgba(124, 179, 66, 0.1) !important;
 }
 
 .reveal {
