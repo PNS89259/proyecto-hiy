@@ -1,9 +1,11 @@
 /* COLORES DE LA WEB:
-   --primario:      #4e342e (Marrón)
+   --primario:      #4e342e (Marrón Profundo)
    --acento:        #7cb342 (Verde Esperanza)
-   --acento-suave:  #f1f8e9
-   --blanco:        #ffffff
+   --acento-suave:  #f1f8e9 (Verde Menta Suave)
+   --blanco:        #ffffff (Blanco Puro)
    --danger:        #e63946 (Rojo Corazón)
+   --bg-light:      #f8f9fa (Gris Bootstrap Light)
+   --gradiente:     #689f38 (Verde Bosque para degradados)
 */
 
 :root {
@@ -12,6 +14,10 @@
     --texto: #2d2d2d;
     --blanco: #ffffff;
     --transicion: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -119,7 +125,7 @@ video::-webkit-media-controls-mute-button {
 .accordion-button:not(.collapsed) {
     color: var(--acento) !important;
     background-color: #ffffff !important;
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
 
 .accordion-button:focus {
@@ -150,12 +156,26 @@ video::-webkit-media-controls-mute-button {
     background-color: var(--acento) !important;
 }
 
-footer a {
-    color: white !important;
+.footer-link {
+    color: rgba(255, 255, 255, 0.8) !important;
     text-decoration: none;
-    transition: opacity 0.3s;
+    transition: all 0.3s ease;
 }
 
-footer a:hover {
-    opacity: 0.8;
+.footer-link:hover {
+    color: #ffffff !important;
+    padding-left: 5px;
+}
+
+.footer-logo {
+    max-height: 50px;
+}
+
+.vr {
+    width: 1px;
+    background-color: #000;
+}
+
+.hover-opacity-100:hover {
+    opacity: 1 !important;
 }
