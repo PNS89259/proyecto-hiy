@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const nav = document.querySelector('.main-nav');
+    const btnTop = document.querySelector('#btnScrollTop');
+    const sectionBienvenidos = document.querySelector('#bienvenidos');
+
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -7,18 +11,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, { threshold: 0.15 });
 
-    document.querySelectorAll('.reveal').forEach(el => {
-        revealObserver.observe(el);
-    });
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    const btnTop = document.querySelector('#btnScrollTop');
-    const sectionBienvenidos = document.querySelector('#bienvenidos');
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
     window.addEventListener('scroll', () => {
-        // Obtenemos la posición de la sección bienvenidos
         const sectionTop = sectionBienvenidos.offsetTop;
+
+        if (window.scrollY >= sectionTop - 100) {
+            nav.classList.remove('d-none');
+            nav.classList.add('nav-visible');
+        } else {
+            nav.classList.add('d-none');
+            nav.classList.remove('nav-visible');
+        }
 
         if (window.scrollY > sectionTop) {
             btnTop.classList.remove('d-none');
@@ -29,12 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Acción de volver arriba
     btnTop.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
-
 });
