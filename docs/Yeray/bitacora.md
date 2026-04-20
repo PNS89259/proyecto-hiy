@@ -165,3 +165,24 @@
 **Fecha:**  17 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 **Proyecto:** Gimnasio
+
+
+
+
+
+
+## ✅ Tareas Completadas
+*Lo que ya está finalizado.*
+
+- [x] **Tarea 1:** Revision de index.
+- [x] **Tarea 2:** Correcion enlaces.
+- [x] **Tarea 3:** Reestructuracion.
+
+
+
+
+
+
+**Fecha:**  20 de abril de 2026  
+**Responsable:** Yeray Gonzalez  
+**Proyecto:** Gimnasio
