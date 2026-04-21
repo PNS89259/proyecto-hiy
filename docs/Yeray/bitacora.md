@@ -129,7 +129,10 @@
 **Fecha:**  15 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 64f82d643ebc164a5f62297ff48c63f66becc739
 **Proyecto:** Gimnasio
 
 
@@ -187,5 +190,8 @@
 
 **Fecha:**  20 de abril de 2026  
 **Responsable:** Yeray Gonzalez  
+<<<<<<< HEAD
 >>>>>>> c0ae4eced60254d0144cc808c59dc1515293a9c1
+=======
+>>>>>>> 64f82d643ebc164a5f62297ff48c63f66becc739
 **Proyecto:** Gimnasio
