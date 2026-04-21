@@ -35,3 +35,24 @@
 - [x] **Tarea 25:** Terminar memoria de proyecto general.
 - [x] **Tarea 26:** Crear video publicidad de Gimnasio.
 - [x] **Tarea 27:** Adaptar presupuesto Casa Acogida coorporativo.
+- [x] **Tarea 28:** Crear video publicidad Gimnasio.
+- [x] **Tarea 29:** Crear música para vídeo de Gimnasio.
+- [x] **Tarea 30:** Editar video de publicidad de Gimnasio.
+- [x] **Tarea 31:** Cambiar footer de la web del Pozo Sotón.
+- [x] **Tarea 32:** Migración a Bootstrap 5 web Casa de Acogida.
+- [x] **Tarea 33:** Crear video publicitario Casa de Acogida.
+- [x] **Tarea 34:** Cards web Casa de Acogida.
+- [x] **Tarea 35:** Acordion web Casa de Acogida.
+- [x] **Tarea 36:** Footer web Casa de Acogida.
+- [x] **Tarea 37:** Añadir texto de historia web Casa de Acogida.
+- [x] **Tarea 38:** Botón back-to-up web Casa de Acogida.
+- [x] **Tarea 39:** Crear video publicitario Casa de Acogida.
+- [x] **Tarea 40:** Header web Casa de Acogida.
+- [x] **Tarea 41:** Eesplegar webs en src/.
+- [x] **Tarea 42:** Revision de código.
+- [x] **Tarea 43:** Reorganización activos en docs/.
+- [x] **Tarea 44:** Creación de scripts/.
+- [x] **Tarea 45:** Clasificación de ficheros.
+- [x] **Tarea 46:** Eliminación de projects/.
+- [x] **Tarea 47:** Navbar web Casa de Acogida.
+
