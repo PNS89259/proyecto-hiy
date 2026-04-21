@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pns89259.github.io/proyecto-hiy/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://pns89259.github.io/proyecto-hiy/src/landing-corp-hiy/index.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://pns89259.github.io/proyecto-hiy/src/carbon-dulce/index.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://pns89259.github.io/proyecto-hiy/src/pozo-soton/index.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://pns89259.github.io/proyecto-hiy/src/gimnasio-warriors/index.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://pns89259.github.io/proyecto-hiy/docs/normativa.md</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.50</priority>
+  </url>
+</urlset>
