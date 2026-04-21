@@ -42,7 +42,7 @@ nav a {
 /* HEADER */
 header {
   height: 85vh;
-  background: url(../../images/fondo.avif) center/cover no-repeat fixed;
+  background: url(../img/fondo.avif) center/cover no-repeat fixed;
   display: flex;
   align-items: center;
   justify-content: center;
