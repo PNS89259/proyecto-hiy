@@ -55,4 +55,14 @@
 - [x] **Tarea 45:** Clasificación de ficheros.
 - [x] **Tarea 46:** Eliminación de projects/.
 - [x] **Tarea 47:** Navbar web Casa de Acogida.
-
+- [x] **Tarea 48:** Reestructurar GitHub.
+- [x] **Tarea 49:** Revisión de documentación.
+- [x] **Tarea 50:** Editar vídeo Casa de Acogida.
+- [x] **Tarea 51:** Estabilización del Despliegue, GitHub Pages.
+- [x] **Tarea 52:** Identidad y SEO.
+- [x] **Tarea 53:** Configuración de Google Search Console.
+- [x] **Tarea 54:** Analítica Avanzada.
+- [x] **Tarea 55:** Privacidad y Cumplimiento Legal.
+- [x] **Tarea 56:** Crear guió para defensa de proyecto.
+- [x] **Tarea 57:** Generación de videos.
+- [x] **Tarea 58:** Edición y maquetación del vídeo.
